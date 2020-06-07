@@ -1,0 +1,32 @@
+{
+  "name": "jwx-",
+  "version": "0.1.0",
+  "description": "CLI test - jwx-",
+  "main": "lib/index.js",
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "bin": {
+    "jwx-": "./bin/jwx-.js"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwx/jwx-.git"
+  },
+  "author": "Jürgen Wenzel <jurgen@jwenzel.se> (http://in90seconds.jwenzel.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwx/jwx-/issues"
+  },
+  "homepage": "https://github.com/jwx/jwx-#readme",
+  "devDependencies": {
+    "rollup": "^1.20.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3"
+  }
+}
